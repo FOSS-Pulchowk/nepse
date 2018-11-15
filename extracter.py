@@ -3,6 +3,9 @@ from pathlib import Path
 from bs4 import BeautifulSoup as BS
 from identifier import know_index
 
+'''
+this header section is necessary for some websites..... not for all
+'''
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
 url = "http://www.nepalstock.com/todaysprice/export"
